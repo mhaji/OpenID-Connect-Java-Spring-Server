@@ -17,3 +17,4 @@ CREATE INDEX ahrt_oi_idx ON authentication_holder_response_type(owner_id);
 CREATE INDEX ahs_oi_idx ON authentication_holder_scope(owner_id);
 CREATE INDEX ac_ahi_idx ON authorization_code(auth_holder_id);
 CREATE INDEX suaa_oi_idx ON saved_user_auth_authority(owner_id);
+CREATE INDEX ass_oi_idx ON approved_site_scope(owner_id);

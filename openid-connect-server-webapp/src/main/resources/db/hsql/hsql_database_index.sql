@@ -17,3 +17,4 @@ CREATE INDEX IF NOT EXISTS ahrt_oi_idx ON authentication_holder_response_type(ow
 CREATE INDEX IF NOT EXISTS ahs_oi_idx ON authentication_holder_scope(owner_id);
 CREATE INDEX IF NOT EXISTS ac_ahi_idx ON authorization_code(auth_holder_id);
 CREATE INDEX IF NOT EXISTS suaa_oi_idx ON saved_user_auth_authority(owner_id);
+CREATE INDEX IF NOT EXISTS ass_oi_idx ON approved_site_scope(owner_id);

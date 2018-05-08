@@ -6,6 +6,7 @@ Unreleased:
 - Long scopes display properly and are still checkable
 - Language system remebers when it can't find a file and stops throwing so many errors
 - Index added for refresh tokens
+- Index added for approved site scopes
 - Updated to Spring Security 4.2.4
 
 *1.3.2:
